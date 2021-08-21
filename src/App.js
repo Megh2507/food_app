@@ -3,8 +3,8 @@ import './App.css';
 import Recipe from './Recipe';
 
 const App = () => {
-  const APP_ID = "5ff48352";
-  const APP_KEY = "339d4f2b8263634dcb1af59740d25296";
+  const APP_ID = "<your_id>";
+  const APP_KEY = "<your_key>";
   // const reqUrl = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
